@@ -17,7 +17,6 @@ public class Empleado {
         this.codigo = codigo;
     }
 
-    // El código debe tener 3 cifras (100 a 999)
     public boolean codigoValido()
     {
         return codigo >= 100 && codigo <= 999;
